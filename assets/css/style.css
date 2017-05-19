@@ -36,6 +36,15 @@ Código Hexadecimal gris footer: #3B3B3B
 
 .color {
     background-color: #8EC641;
+    text-align: center;
+    color: white;
+}
+
+.color input[type="text"] {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 25%;
 }
 
 
@@ -115,4 +124,16 @@ footer {
     background-color: #3B3B3B;
     padding: 20px 30px;
     color: white;
+}
+
+.color h5 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+}
+
+.escondido {
+    display: none;
 }
