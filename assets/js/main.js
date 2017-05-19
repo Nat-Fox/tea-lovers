@@ -6,5 +6,16 @@ function suscripcion() {
         formulario.classList.remove('escondido');
     } else {
         formulario.classList.add('escondido');
+        //validaciones
+        var nombre = document.getElementById('nombre').value;
+        var email = document.getElementById('email').value;
+        var direccion = document.getElementById('direccion').value;
+
+        if (nombre == '' || email == '' || direccion == '') {
+            alert('Debes ingresar todos los campos');
+            formulario.classList.remove('escondido');
+        } else {
+            alert('Muchas gracias por suscribirte');
+        }
     }
 }

@@ -137,3 +137,8 @@ footer {
 .escondido {
     display: none;
 }
+
+.input-text {
+    padding: 5px;
+    margin-bottom: 15px;
+}
